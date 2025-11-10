@@ -1,0 +1,4 @@
+class KonsoliIO:
+    def hae(self, io):
+        url = "https://raw.githubusercontent.com/ohjelmistotuotanto-jyu/tehtavat/refs/heads/main/osa2/stats/players-23-24.txt"
+        return url
