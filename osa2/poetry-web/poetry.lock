@@ -41,6 +41,17 @@ files = [
 markers = {main = "platform_system == \"Windows\"", dev = "sys_platform == \"win32\""}
 
 [[package]]
+name = "cowsay"
+version = "6.1"
+description = "The famous cowsay for GNU/Linux is now available for python"
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+files = [
+    {file = "cowsay-6.1-py3-none-any.whl", hash = "sha256:274b1e6fc1b966d53976333eb90ac94cb07a450a700b455af9fbdf882244b30a"},
+]
+
+[[package]]
 name = "exceptiongroup"
 version = "1.3.0"
 description = "Backport of PEP 654 (exception groups)"
@@ -362,4 +373,4 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "b009485897bf63e0e4e854b615dc4ceafd64ea78f65ee7f7f70785d5fcb92e23"
+content-hash = "5a751cba5fb21c9c83b1e6391a903f5814281e15986b9cf25dcfdc63adf42b7d"
